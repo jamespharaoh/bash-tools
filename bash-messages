@@ -131,8 +131,6 @@ function status-begin {
 
 	printf '\n' >&2
 
-echo "c"
-
 }
 
 function status-update {
