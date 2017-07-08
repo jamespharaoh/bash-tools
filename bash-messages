@@ -184,8 +184,6 @@ function pipe-filter {
 
 			line=$(echo "$line" | sed 's/\r/\r   /g')
 
-#			echo "$line" | hexdump -C >&2
-
 			message "$line"
 
 		else
